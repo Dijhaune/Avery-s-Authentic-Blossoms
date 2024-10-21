@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script src="products.js" defer></script>
+</head>
+<body>
+    <header class = "header">
+        <a href = "#" class = "logo"><img src="../images/logo.png" alt="Logo"></a>
+
+        <nav class="navbar">
+            <a href = "index.html">Home</a>
+            <a href = "products.html" class="nav-link active">Products</a>
+            <a href = "cart.html">View Cart</a>
+            <a href="login_form.html" class="button" id="loginButton">Login</a>
+        </nav>
+    </header>
+    
+    <h1> FLOWERS</h1>
+    <section class="products-container">
+        <div class="product" data-id="1">
+            <h2>Rose</h2>
+            <img src="../images/rose.jpeg" alt="rose">
+            <p>Price: $1200</p>
+           
+            <button onclick="addToCart(1)">Add to Cart</button></br>
+            
+        </div>
+
+        <div class="product" data-id="2">
+            <h2>Tulip</h2>
+            <img src="../images/tulip1.jpg" alt="tulip">
+            <p>Price: $1200</p>
+            <button onclick="addToCart(2)">Add to Cart</button></br>
+            
+        </div>
+
+        <div class="product" data-id="3">
+            <h2>Sunflower</h2>
+            <img src="../images/sunflower.jpg" alt="sunflower">
+            <p>Price: $950</p>
+            <button onclick="addToCart(3)">Add to Cart</button></br>
+        </div>
+
+        <div class="product" data-id="4">
+            <h2>Orchid</h2>
+            <img src="../images/orchid.jpg" alt="white orchid">
+            <p>Price: $650</p>
+            <button onclick="addToCart(4)">Add to Cart</button></br>
+        </div>
+
+        <div class="product" data-id="5">
+            <h2>Lily</h2>
+            <img src="../images/lily.jpg" alt="Lily">
+            <p>Price: $1050</p>
+            <button onclick="addToCart(5)">Add to Cart</button></br>
+        </div>
+
+        <div class="product" data-id="6">
+            <h2>Peony</h2>
+            <img src="../images/peony.jpg" alt="peony">
+            <p>Price: $1250</p>
+            <button onclick="addToCart(6)">Add to Cart</button></br>
+        </div>
+
+    </section>
+
+
+
+    <h1>BOUQUETS</h1>
+    <section class="products-container">
+        <div class="product" data-id="7">
+            <h2>Rose Bouquet</h2>
+            <img src="../images/rose_bouquet.jpg" alt="Rose Bouquet">
+            <p>Price: $14,000</p>
+            <button onclick="addToCart(7)">Add to Cart</button></br>
+        </div>
+
+        <div class="product" data-id="8">
+            <h2>Sunflower Bouquet</h2>
+            <img src="../images/sunflower_bouquet.jpg" alt="Sunflower Bouquet">
+            <p>Price: $12,000</p>
+            <button onclick="addToCart(8)">Add to Cart</button></br>
+        </div>
+
+        <div class="product" data-id="9">
+            <h2>Lily Bouquet</h2>
+            <img class= "product img"src="../images/lily_bouquet.jpg" alt="Lily Bouquet">
+            <p>Price: $12,500</p>
+            <button onclick="addToCart(9)">Add to Cart</button></br>
+        </div>
+        
+        <div class="product" data-id="10">
+            <h2>Orchid Bouquet</h2>
+            <img src="../images/orchid_bouquet1.jpg" alt="Orchid bouquet">
+            <p>Price: $10,000</p>
+            <button onclick="addToCart(10)">Add to Cart</button></br>
+        </div>
+
+        <div class="product" data-id="11">
+            <h2>Tulip Bouquet</h2>
+            <img src="../images/tulip_bouquet.jpg" alt="h">
+            <p>Price: $14,000</p>
+            <button onclick="addToCart(11)">Add to Cart</button></br>
+        </div>
+
+        <div class="product" data-id="12">
+            <h2>Peony Bouquet</h2>
+            <img src="../images/peony_bouquet.jpg" alt="peony bouquet">
+            <p>Price: $15,000</p>
+            <button onclick="addToCart(12)">Add to Cart</button></br>
+        </div>
+    </section>
+
+    <section class="checkout-buttons">
+        <button id="checkout-btn">CheckOut</button>
+        <button id="cancel-btn">Cancel</button>
+        <button id="exit-btn">Exit</button>
+    </section> </br>
+
+        <!-- <h1>Make a request</h1> -->
+        
+        <a href="mailto:Averyblossom$@gmail.com?subject=Requesting%20a%20custom%20bouquet" style="text-decoration: none;">
+            <button>Make a custom request</button>
+        </a>
+        
+        <section>
+
+
+    </section>
+    
+    <footer class="footer">
+        <div class = "footer-content">
+            <p>&copy; 2024 Blossoms. All rights reserved.</p>
+        </div>
+        <div class = "footer-content">
+            <a href="mailto:Averyblossom$@gmail.com" target="_blank">Gmail</a>
+        </div>
+    </footer>
+</body>
+
+</html>

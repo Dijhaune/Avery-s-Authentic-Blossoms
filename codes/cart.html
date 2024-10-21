@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Cart</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <header class = "header">
+        <a href = "#" class = "logo"><img src="../images/logo.png" alt="Logo"></a>
+
+        <nav class="navbar">
+            <a href = "index.html" class = "active">Home</a>
+            <a href = "products.html">Products</a>
+            <a href = "cart.html" class="nav-link active">View Cart</a>
+            <a href="login_form.html" class="button" id="loginButton">Login</a>
+        </nav>
+    </header>
+
+    <h1>Shopping Cart</h1>
+    <div class="cart-container">
+    <div id="cart-items">
+        <!-- Items will be populated here dynamically -->
+    </div>
+
+    <div class="cart-total">
+        Total: $<span id="total-price">0.00</span>
+    </div>
+
+    <div class="cart-buttons">
+        <button class="checkout-btn" onclick="checkout()">Checkout</button>
+        <button class="update-btn" onclick="updateCart()">Update Cart</button>
+    </div>
+</div>
+
+
+
+    <footer class="footer">
+        <div class = "footer-content">
+            <p>&copy; 2024 Blossoms. All rights reserved.</p>
+        </div>
+        <div class = "footer-content">
+            <a href="mailto:Averyblossom$@gmail.com" target="_blank">Gmail</a>
+        </div>
+    </footer>
+</body>
+
+</html>
