@@ -84,5 +84,5 @@ document.getElementById('cancel-btn').addEventListener('click', function() {
 
 // Function to exit page
 document.getElementById('exit-btn').addEventListener('click', function(){
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 });
